@@ -38,4 +38,10 @@ def about(request):
 
 
 
+def show(request):
+    allappointments = MyAppointments.objects.all()
+    return render(request, 'show.html', {'allappointments': allappointments})
+
+
+
 

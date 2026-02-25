@@ -14,4 +14,6 @@ urlpatterns = [
 
       path('about/', views.about, name='about'), 
 
+      path('show/', views.show, name='show'), 
+
 ]

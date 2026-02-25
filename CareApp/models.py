@@ -56,3 +56,7 @@ class MyAppointments(models.Model):
 
 
 
+
+
+
+
