@@ -8,6 +8,12 @@ admin.site.register(Doctor)
 
 admin.site.register(MyAppointments)
 
+admin.site.register(Transaction)
+
+
+
+
+
 
 
 
