@@ -6,7 +6,7 @@ from CareApp import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-     path('', views.home, name='home'),
+     path('home/', views.home, name='home'),
      path('starter/', views.starter, name='starter'),
 
 
@@ -30,9 +30,10 @@ urlpatterns = [
 
 
     #Authentication
-    path('register/', views.register, name='register'),
+    path('', views.register, name='register'),
 
-    path('login/', views.login, name='login'),
+    path('login/', views.login_view, name='login'),
+    
 
     
 
